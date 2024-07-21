@@ -1,0 +1,8 @@
+NAVIGATE TO 'https://example.com/login'
+INPUT 'testuser' INTO element WHERE id='username'
+INPUT 'password123' INTO element WHERE id='password'
+CLICK element WHERE id='submit'
+WAIT FOR element WHERE id='welcome-message' TIMEOUT 10 SECONDS
+EXTRACT text FROM element WHERE id='welcome-message' INTO welcome_text
+PRESS ENTER IN element WHERE id='username'
+PRESS TAB IN element WHERE id='username'
