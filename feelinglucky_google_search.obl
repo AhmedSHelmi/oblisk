@@ -1,0 +1,3 @@
+NAVIGATE TO 'https://www.google.com/'
+INPUT 'ahmedshelmi' INTO element WHERE name='q'
+CLICK element WHERE name='btnI'
